@@ -1,3 +1,9 @@
+bde-oss-tools (2.21.0.2.ppc-trial-patch) unstable; urgency=low
+
+  * 9532ffd [APPROVAL] origin/review/default-opts-linux-on-ppc64-t2533872 to master-plus-powerpc
+
+ -- Mike Giroux <mgiroux@bloomberg.net>  Mon, 5 May 2014 13:52:49 -0400
+
 bde-oss-tools (2.21.0.2) unstable; urgency=low
 
   * 2727232 [APPROVAL] origin/review/binary-compatibility-fix-drqs-52115794 to master
