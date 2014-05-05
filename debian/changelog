@@ -1,4 +1,4 @@
-bde-oss-tools (2.21.0.2.ppc-trial-patch) unstable; urgency=low
+bde-oss-tools (2.21.0.2.ppc.trial.patch) unstable; urgency=low
 
   * 9532ffd [APPROVAL] origin/review/default-opts-linux-on-ppc64-t2533872 to master-plus-powerpc
 
