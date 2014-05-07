@@ -1,3 +1,9 @@
+bde-oss-tools (2.21.0.2.ppc.trial.patch.2) unstable; urgency=low
+
+  * 560b20f Fix compiler version and path for Linux ppc
+
+ -- Mike Giroux <mgiroux@bloomberg.net>  Wed, 7 May 2014 12:03:38 -0400
+
 bde-oss-tools (2.21.0.2.ppc.trial.patch) unstable; urgency=low
 
   * 9532ffd [APPROVAL] origin/review/default-opts-linux-on-ppc64-t2533872 to master-plus-powerpc
