@@ -1,3 +1,8 @@
+bde-oss-tools (2.21.0.2.ppc.trial.patch.3) unstable; urgency=low
+
+
+ -- Mike Giroux <mgiroux@bloomberg.net>  Wed, 7 May 2014 13:04:13 -0400
+
 bde-oss-tools (2.21.0.2.ppc.trial.patch.2) unstable; urgency=low
 
   * 560b20f Fix compiler version and path for Linux ppc
