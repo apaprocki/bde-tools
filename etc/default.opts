@@ -576,7 +576,8 @@ unix-SunOS-*-*-gcc  _  CXX = -ftemplate-depth-150
 !! unix-Linux-*-*-gcc  _  LINUX_GCC_PATH = gcc
 !! unix-Linux-*-*-gcc  _  LINUX_GXX_PATH = g++
 
-!! unix-Linux-ppc64-*  _  LINUX_GCC_PATH = /opt/at7.0/bin/g++
+!! unix-Linux-ppc64-*  _  LINUX_GCC_PATH = /opt/at7.0/bin/gcc
+!! unix-Linux-ppc64-*  _  LINUX_GXX_PATH = /opt/at7.0/bin/g++
 
 !! unix-Linux-*-*-gcc  _  CC  = $(LINUX_GCC_PREFIX) $(LINUX_GCC_PATH) -DUSE_REAL_MALLOC $(GCCEXTRAWFLAGS) $(CC64FLAGS) -std=gnu99
 !! unix-Linux-*-*-gcc  _  CXX = $(LINUX_GCC_PREFIX) $(LINUX_GXX_PATH) $(GCCEXTRAWFLAGS) $(CXX64FLAGS)
