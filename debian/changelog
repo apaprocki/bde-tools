@@ -1,5 +1,6 @@
 bde-oss-tools (2.21.0.2.ppc.trial.patch.3) unstable; urgency=low
 
+  * 84a6318 fix GXX path as well
 
  -- Mike Giroux <mgiroux@bloomberg.net>  Wed, 7 May 2014 13:04:13 -0400
 
