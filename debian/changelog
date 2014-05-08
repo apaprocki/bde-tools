@@ -1,68 +1,56 @@
-bde-oss-tools (2.21.0.2.ppc.trial.patch.3) unstable; urgency=low
+bde-oss-tools (2.21.0.2.ppc.trial.patch.4) unstable; urgency=low
 
-  * 84a6318 fix GXX path as well
+  * 13c4cb remove LINUX_G*_PATH change for ppc64
 
- -- Mike Giroux <mgiroux@bloomberg.net>  Wed, 7 May 2014 13:04:13 -0400
+ -- Mike Giroux <mgiroux@bloomberg.net>  Thu, 8 May 2014 11:22:59 -0400
 
-bde-oss-tools (2.21.0.2.ppc.trial.patch.2) unstable; urgency=low
+bde-oss-tools (2.21.0.2.ppc.trial.patch.3) git; urgency=low
 
+  * 5063c4b bump changelog
+  * 84a6318 bump changelog
+
+ -- Mike Giroux <mgiroux@bloomberg.net>  Wed, 7 May 2014 13:05:23 -0400
+
+bde-oss-tools (2.21.0.2.ppc.trial.patch.2) git; urgency=low
+
+  * f71002e bump changelog
   * 560b20f Fix compiler version and path for Linux ppc
 
- -- Mike Giroux <mgiroux@bloomberg.net>  Wed, 7 May 2014 12:03:38 -0400
+ -- Mike Giroux <mgiroux@bloomberg.net>  Wed, 7 May 2014 12:05:09 -0400
 
-bde-oss-tools (2.21.0.2.ppc.trial.patch) unstable; urgency=low
+bde-oss-tools (2.21.0.2.ppc.trial.patch) git; urgency=low
 
+  * aa7c9d7 fix version name
+  * 2125eb1 bump changelog
   * 9532ffd [APPROVAL] origin/review/default-opts-linux-on-ppc64-t2533872 to master-plus-powerpc
 
- -- Mike Giroux <mgiroux@bloomberg.net>  Mon, 5 May 2014 13:52:49 -0400
+ -- Mike Giroux <mgiroux@bloomberg.net>  Mon, 5 May 2014 13:55:31 -0400
 
-bde-oss-tools (2.21.0.2) unstable; urgency=low
+bde-oss-tools (2.21.0.2) git; urgency=low
 
+  * e6036dc bump changelog
   * 2727232 [APPROVAL] origin/review/binary-compatibility-fix-drqs-52115794 to master
 
- -- Mike Giroux <mgiroux@bloomberg.net>  Fri, 2 May 2014 09:52:21 -0400
+ -- Mike Giroux <mgiroux@bloomberg.net>  Fri, 2 May 2014 09:52:37 -0400
 
-bde-oss-tools (2.21.0.1) unstable; urgency=low
+bde-oss-tools (2.21.0.1) git; urgency=low
 
-  * No commits found
+  * 5c6b889 bump changelog
+
+ -- Mike Giroux <mgiroux@bloomberg.net>  Mon, 28 Apr 2014 19:55:09 -0400
+
+bde-oss-tools (2.21.0.0.beta.1) git; urgency=low
+
+  * 380e2ff bump changelog for 2.21.0.0.beta.1
+  * 9a1eab7 [APPROVAL] origin/review/waf-dpkg-drqs-49353577 to master
 
  -- Mike Giroux <mgiroux@bloomberg.net>  Wed, 16 Apr 2014 13:15:53 -0400
 
-bde-oss-tools (2.21.0.0.beta.1) unstable; urgency=low
+bde-oss-tools (2.20.0.0.waf.3) git; urgency=low
 
-  * 9a1eab7 [APPROVAL] origin/review/waf-dpkg-drqs-49353577 to master
+  * ea5b619 bump changelog
+  * 39801da bump changelog
+  * 2ed932a Update changelog.
+  * 46887be Update changelog for waf debian build
 
- -- Mike Giroux <mgiroux@bloomberg.net>  Mon, 14 Apr 2014 15:57:01 -0400
-
-bde-oss-tools (2.20.0.0.waf.3) unstable; urgency=low
-
-  * 83fbf9d Updated to link in c++ std library for building so files using suncc.
-
- -- Chen He <che24@bloomberg.net>  Fri, 4 Apr 2014 11:49:37 -0400
-
-bde-oss-tools (2.20.0.0.waf.2) unstable; urgency=low
-
-  * bf724cd Update changelog.
-  * 08163fa Update changelog for waf debian build
-  * d639e07 Updated debian/rules to not include *pyc files when building dpkg.
-  * 00125ee Added files for building a dpkg.
-  * 714b445 Fixed adding SONAME for suncc.
-  * fa16476 Updated wscript.
-  * f022720 Stopped adding decorator around warnings and errors to temporarily fix build on windows.
-
- -- Chen He <che24@bloomberg.net>  Thu, 3 Apr 2014 22:19:51 -0400
-
-bde-oss-tools (2.20.0.0.waf.1) unstable; urgency=low
-
-  * 4e016fc Updated debian/rules to not include *pyc files when building dpkg.
-  * 300e7f6 Added files for building a dpkg.
-  * 189651d Fixed bug for the lib_suffix option.
-  * e1d659a Added 3 configure options (lib-suffix, install-flat-include, and install-lib-dir), and 1 environment variable option (PC_EXTRA_INCLUDE_DIRS).
-  * a55714f Refactored the directory structure to use standard waf installation and moved default.opts to /etc.
-  * e1898d3 Added custom library suffix in pkgconfig files to support dpkg build.
-  * b855e4b Added decorator to error and warning messages. Made other minor changes to waf outputs.
-  * 92a49c1 Added support for including the appropriate SONAME header in so files.
-  * 564ae8f Added the waf-based build tool.
-  * be41975 Initial commit
-
- -- Chen He <che24@bloomberg.net>  Wed, 2 Apr 2014 19:45:19 -0400
+ -- Chen He <che2
